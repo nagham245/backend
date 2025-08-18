@@ -8,7 +8,11 @@ exports.createItem = async (req, res) => {
       condition: req.body.condition,
       category: req.body.category,
       isDonation: req.body.isDonation,
+<<<<<<< HEAD
       mainImage: "", 
+=======
+      mainImage: "", // مفيش صورة بعد
+>>>>>>> e6187289e5c8e2b6df654ac0dcba3631db3df171
     });
 
     const savedItem = await newItem.save();

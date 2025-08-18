@@ -1,5 +1,6 @@
 const express = require("express");
 const router = express.Router();
+<<<<<<< HEAD
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 
@@ -48,6 +49,8 @@ router.post("/login", async (req, res) => {
     res.status(500).json({ message: "Internal server error" });
   }
 });
+=======
+>>>>>>> e6187289e5c8e2b6df654ac0dcba3631db3df171
 
 router.get("/", (req, res) => {
   res.json({ message: "Auth routes working" });
